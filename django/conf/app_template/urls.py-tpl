@@ -1,0 +1,11 @@
+from django.urls import path,include
+from {{ app_name }} import views
+
+
+# Register your models here.
+
+
+urlpatterns = [
+	path('',include('{{app_name}}.api.urls'))
+
+]

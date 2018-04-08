@@ -1,0 +1,52 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>{% block title %} {% endblock %}</title>
+    <!--Common css link start-->
+    <!--Common css link end-->
+
+
+    <!--extends css start-->
+    {% block css %}
+
+    {% endblock %}
+    <!--extends css end-->
+
+
+</head>
+
+<body>
+<!--common content start-->
+<!--common content end-->
+
+
+<!--extends content srart -->
+    {% block content %}
+
+    {% endblock %}
+<!--extends content end -->
+
+
+
+<!--footer start-->
+<!--footer end-->
+
+
+
+
+
+<!--Common js link start-->
+<!--Common js link end-->
+
+
+    <!--extends js block end -->
+    {% block js %}
+
+    {% endblock %}
+<!--extends js block end -->
+
+</body>
+</html>

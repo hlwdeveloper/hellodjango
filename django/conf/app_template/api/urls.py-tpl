@@ -1,0 +1,11 @@
+from django.urls import path
+from {{app_name}}.api import views
+
+
+# Register your models here.
+
+
+urlpatterns = [
+
+
+]
