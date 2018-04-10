@@ -1,0 +1,7 @@
+from django.shortcuts import render
+
+
+#{ app_name }} all model forms imported
+from {{ app_name }}.model import *
+from {{ app_name }}.forms import *
+# Create your views here.

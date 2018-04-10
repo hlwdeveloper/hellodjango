@@ -1,0 +1,7 @@
+from django.core import serializers
+
+
+#{{ app_name }} all model forms imported
+
+from {{ app_name }}.model import *
+# Create your views here.
