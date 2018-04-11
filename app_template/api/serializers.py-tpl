@@ -3,5 +3,5 @@ from django.core import serializers
 
 #{{ app_name }} all model forms imported
 
-from {{ app_name }}.model import *
+from {{ app_name }}.models import *
 # Create your views here.

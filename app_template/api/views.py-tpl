@@ -2,7 +2,7 @@ from django.http import HttpResponse, JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.core.serializers.json import DjangoJSONEncoder
 
-#{{ app_name }} all model serializers imported
-from {{ app_name }}.serializers import *
-from {{ app_name }}.model import *
+#{{ app_name }} all models serializers imported
+from {{ app_name }}.api.serializers import *
+from {{ app_name }}.models import *
 # Create your views here.

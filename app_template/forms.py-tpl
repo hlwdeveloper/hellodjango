@@ -1,7 +1,7 @@
 from django import forms
 from django.forms import ModelForm
 
-#{{ app_name }} all model imported
-from {{ app_name }}.model import *
+#{{ app_name }} all models imported
+from {{ app_name }}.models import *
 
 # Register your models here.
